@@ -25,3 +25,6 @@ Therefore, rather than having to enter each api key induvidually, you can create
 }
 ```
 To access this file via API, you'll need to create a perosnal access token. I suggest a fine-grained token, with read only access to code and metadata of the repo containing the secret file. 
+
+## FileStore branch
+There's a branch in the repo called FileStore which you can save the output files to. In order to save files you'll need to have write access to the repo, and use a personal access token to do this.
