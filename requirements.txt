@@ -1,0 +1,17 @@
+pyspark
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+scipy
+requests
+Pillow
+plotly
+statsmodels
+joblib
+tenacity
+ujson
+pyarrow
+psycopg2
+mlflow
