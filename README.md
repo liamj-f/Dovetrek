@@ -1,27 +1,8 @@
-# Dovetrek RouteSolver
+# FileStore branch
 
-Hi!
-This project is to help "solve" the West Warwickshire Explorer Scouts annual hiking competition - Dovetrek! 
-Teams get given a list of checkpoints, their grid references and the checkpoint open and closing times. Teams then have to visit as many of those checkpoints as possible when they are open and make it back to the finish 7 hours after their start time.
+This is the FileStore branch! Don't delete it pls, definitely don't merge it to main.
+If you don't know why this branch is so different to the rest of the branches, it's kind of like Azure Data Factory's adf_publish branch.
 
-These notebooks were developed in Azure Databricks, though i'm trying to get them compatible with most jupyter notebook environments. 
+Though it should have a ruleset on it that you can't delete it.
 
-## Requirements
-All three of the ipynb files reference different API keys for the following services:
-- Azure Maps
-- Bing Maps
-- Google Maps
-- Ordnance Survey data hub
-- OpenRouteService
-
-Therefore, rather than having to enter each api key induvidually, you can create your own github repo with a secrets file in it. I have a repo (liamj-f/secrets) with a Dovetrek_Secrets.json file in.
-```
-{
-  "BingMApsAPIKey":"xxxx",
-  "AzureMapsAPIKey":"xxxx",
-  "OrdnanceSurveyAPIKey":"xxxx",
-  "OpenRouteServiceAPIKey":"xxxx",
-  "GoogleMapsAPIKey":"xxxx"
-}
-```
-To access this file via API, you'll need to create a perosnal access token. I suggest a fine-grained token, with read only access to code and metadata of the repo containing the secret file. 
+Anyway, this branch is for uploading the output files to - such as maps, dataframes etc.
