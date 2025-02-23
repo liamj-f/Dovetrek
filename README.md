@@ -7,7 +7,7 @@ Teams get given a list of checkpoints, their grid references and the checkpoint 
 These notebooks were developed in Azure Databricks, though i'm trying to get them compatible with most jupyter notebook environments so you can test it out for yourself. 
 It should work with 
 - [mybinder](https://mybinder.org/)
-- [Google Collab](https://colab.research.google.com/github/liamj-f/Dovetrek/blob/Binder-fix/)
+- [Google Collab](https://colab.research.google.com/github/liamj-f/Dovetrek/blob/main/)
 
 ## Requirements
 All three of the ipynb files reference different API keys for the following services:
