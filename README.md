@@ -4,7 +4,8 @@ Hi!
 This project is to help "solve" the West Warwickshire Explorer Scouts annual hiking competition - Dovetrek! 
 Teams get given a list of checkpoints, their grid references and the checkpoint open and closing times. Teams then have to visit as many of those checkpoints as possible when they are open and make it back to the finish 7 hours after their start time.
 
-These notebooks were developed in Azure Databricks, though i'm trying to get them compatible with most jupyter notebook environments. 
+These notebooks were developed in Azure Databricks, though i'm trying to get them compatible with most jupyter notebook environments so you can test it out for yourself. 
+It should work with [mybinder](https://mybinder.org/).
 
 ## Requirements
 All three of the ipynb files reference different API keys for the following services:
