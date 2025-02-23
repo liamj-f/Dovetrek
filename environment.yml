@@ -1,0 +1,23 @@
+name: binder-spark
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pyspark
+  - openjdk=11
+  - pyarrow
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - scipy
+  - requests
+  - pillow
+  - plotly
+  - statsmodels
+  - joblib
+  - tenacity
+  - ujson
+  - psycopg2
+  - mlflow
